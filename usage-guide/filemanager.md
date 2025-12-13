@@ -1,6 +1,4 @@
-# 🗃️ Filemanager
-
-<figure><img src="../.gitbook/assets/Minimalist Website Launch Computer Mockup Instagram Post (1).png" alt=""><figcaption></figcaption></figure>
+# Filemanager
 
 Holesail file manager let's you share files and folders with anyone and across devices with a single command.
 
@@ -32,22 +30,16 @@ Supported options:
 holesail --filemanager
 ```
 
-2. Connect to a Holesail server with a custom connection string and custom port:
-
-```
-Start a filemanager session in the current directory with public connection string:
-```
-
-3. Start a filemanager session in a custom directory with custom username:
+2. Start a filemanager session in a custom directory with custom username:
 
 ```
 holesail --filemanager "/Users/supersu" --username "holesail"
 ```
 
-4. Start a filemanager session in a custom directory with custom username and password and admin role:
+3. Start a filemanager session in a custom directory with custom username and password and admin role:
 
 ```
 holesail --filemanager "/Users/supersu" --username "holesail" --password "securepass@99#123" --role admin
 ```
 
-You can combine multiple options according to your needs. You will get a connection string and QR code that you can use to connect with Holesail filemanager and access in browser.
+You can combine multiple options according to your needs. You will get a connection string and QR code that you can use to connect with Holesail filemanager and access in the browser.

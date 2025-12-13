@@ -1,6 +1,6 @@
-# 📪 Install through npm (Recommended)
+# Install through npm
 
-Holesail is available through npm, which is the recommended way to install and use It currently. All the latest updates, patches, and bug fixes are first applied to the npm package and then to everything else.
+Holesail is available through npm, which is an easy way to install and use it currently. All the latest updates, patches, and bug fixes are first applied to the npm package and then to everything else.
 
 ## Step 1- Install Nodejs
 

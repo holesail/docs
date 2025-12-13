@@ -6,7 +6,7 @@ A **connection key** is what you need to connect to someone with Holesail.&#x20;
 
 The QR code has connection key stored in it for easy sharing.
 
-Connection keys are automatically generated but you can specify custom connection keys. They should be at least 32 chars long for security purpose and custom connection keys can not be equal to exactly 64 chars.
+Connection keys are automatically generated but you can specify custom connection keys. They should be at least 32 chars long for security purpose but you can override that with the --force flag.
 
 ### The Key and Keypair
 

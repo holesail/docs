@@ -15,7 +15,7 @@ Private connection keys are what Holesail connection's use by default, you can a
 
 On the client side,  When you share your private connection key with someone we will again derive a key pair and use the public key to find the server.
 
-While establishing a connection the client has the same private key as the server and it is sent along the connection. The server will verify the key and allow the connection, if the key is incorrect or there is no key set, the server will not respond at all.
+While establishing a connection the client has the same private key as the server and it is sent with the connection. The server will verify this private key and permit the connection, but if the key is incorrect or there is no private key set, the server will not respond at all.
 
 This ensures, that other peer who know about your public key can not connect to you because they do not have the private key.
 
@@ -29,7 +29,7 @@ If someone else start a server with your private connection string, they will ta
 
 ## Public Connection Keys
 
-With private connection key, we can access our system safely and know that no third party can connect without our permission, but they are only meant for personal use (like SSH) but what if we want to share the connection with a third party?
+With private connection key, we can access our system safely and know that no third party can connect without our permission, but they are only meant for personal use (like SSH) but what if we want to share the server with a third party?
 
 This is where public connection keys come into play. This time we again generate a random Keypair, discard the private key and announce our public key on the P2P network.
 
