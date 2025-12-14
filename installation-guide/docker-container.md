@@ -17,7 +17,7 @@ Requirements:
 Pull the docker image:
 
 ```bash
-docker pull holesail/holesail:latest
+docker pull holesail/holesail:main
 ```
 
 ### Server Mode
@@ -32,7 +32,7 @@ docker run -d --name holesail \
   -e KEY=very-super-secret \
   -e PUBLIC=false \
   --network host \
-  holesail:latest
+  holesail:main
 ```
 
 ### Client Mode
@@ -48,7 +48,7 @@ docker run -d --name holesail-client \
   -e FORCE=true \
   -e LOG=true \
   --network host \
-  holesail:latest
+  holesail:main
 ```
 
 ### File Manager Mode
@@ -71,7 +71,7 @@ docker run -d \
   -e PASSWORD=securepass \
   -e ROLE=admin \
   -v /path/to/local/files:/app/files \
-  holesail:latest
+  holesail:main
 ```
 
 ### Environment Variable Configuration
